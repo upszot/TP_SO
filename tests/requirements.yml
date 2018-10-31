@@ -1,0 +1,3 @@
+- src: git@dgsiaf-gitlab.mecon.ar:tecnologia/dgsiaf.proxy-repo.git
+  scm: "git"
+  version: "master"

@@ -1,0 +1,8 @@
+- hosts:
+    - tests
+  vars:
+      #sshd_idle_timeout_value: 86400 #24hs
+  roles:
+    - role: dgsiaf.proxy-repo
+    - role: dgsiaf.nagios-nrpe
+      SERVER_NAGIOS: "damocles.mecon.ar"
